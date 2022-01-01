@@ -1,12 +1,12 @@
 ---
-title: "机器视觉研究所 - Home"
+title: "Lab On Computer Vistion & Artifical Intelligence - Home"
 layout: homelay
-excerpt: "机器视觉 人工智能"
+excerpt: "Computer Vistion & Artifical Intelligence."
 sitemap: false
 permalink: /
 ---
 
-我们是致力于机器视觉与人工智能研究的团队 [机器视觉研究所](http://www.ilab.online). 我们的目标是揭示和理解基于视觉的人工智能相关技术的研究, 包括：深度学习、行为分析、图像识别、人工智能等相关研究内容。
+We are a dynamic research group at the [iLab.online](http://www.ilab.online). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including Computer Vistion, Artifical Intelligence, and deep learning matter.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
