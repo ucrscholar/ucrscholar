@@ -1,44 +1,51 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# site settings
+title: CVAI Laboratory
+subtitle: CVAI @ iLab.online
+email: sjzhang@cqjtu.edu.cn
+description: We are a Computer Vison and Artifical Intelligence(CVAI)<br /> research group at the ilab .
+baseurl: "" # the subpath of your site, e.g. /blog
+url:   # the base hostname & protocol for your site
+author: ilab
+street_address: No.66, Xuefu Road, Nan' an District
+city: ChongQing
+state: CQ
+zip_code: 400074
+country: China
+phone: (+1) 951-213-1771
 
-# Site settings
-title: The Allan Lab
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
-baseurl: ""
-url: ""
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-include:
-  - .htaccess
-  - _pages
+
+collections:
+  publications:
+    output: false
+    permalink: /:collection/:name
+
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: 
+  GitLab:
+  Google-Plus: 
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
 
 sass:
-  sass_dir: _sass
+  style: compressed
 
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-
-theme: jekyll-theme-cayman
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
